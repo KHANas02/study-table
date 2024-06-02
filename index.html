@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forever asow</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wrapper" style="--3d-style: flat">
+  <button id="change-3d">Switch to 3D</button>
+  <div id="card" class="t3d">
+    <div id="header" class="t3d">
+      <div class="title t3d">
+        <h2>Hi John!</h2>
+        <h1>Today's tasks</h1>
+        <h6>02.04.2024</h6>
+      </div>
+    </div>
+    <div id="main">
+      <div id="stats">
+        <div><span id="counter"></span> of 10 Completed</div>
+        <label for="show-finished"><span>Show finished</span>
+          <input type="checkbox" name="show-finished" id="show-finished"></label>
+      </div>
+      <ul id="list">
+        <li id="item-1">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-1" id="task-1">
+                <input type="text" value="Join CodePen challenge">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-1-menu" id="task-1-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">10.01.2024</span>
+                <span>03:56</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-1-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-1-badge-code"><input type="radio" name="task-1-badge" id="task-1-badge-code" checked>
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-1-badge-design"><input type="radio" name="task-1-badge" id="task-1-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-1-badge-other"><input type="radio" name="task-1-badge" id="task-1-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-2">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-2" id="task-2">
+                <input type="text" value="Finish the client's design">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-2-menu" id="task-2-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">13.01.2024</span>
+                <span>06:34</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-2-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-2-badge-code"><input type="radio" name="task-2-badge" id="task-2-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-2-badge-design"><input type="radio" name="task-2-badge" id="task-2-badge-design" checked>
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-2-badge-other"><input type="radio" name="task-2-badge" id="task-2-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-3">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-3" id="task-3">
+                <input type="text" value="Get some rest">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-3-menu" id="task-3-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">19.01.2024</span>
+                <span>11:48</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-3-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-3-badge-code"><input type="radio" name="task-3-badge" id="task-3-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-3-badge-design"><input type="radio" name="task-3-badge" id="task-3-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-3-badge-other"><input type="radio" name="task-3-badge" id="task-3-badge-other" checked>
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-4">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-4" id="task-4">
+                <input type="text" value="Update wireframes">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-4-menu" id="task-4-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">22.01.2024</span>
+                <span>5:56</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-4-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-4-badge-code"><input type="radio" name="task-4-badge" id="task-4-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-4-badge-design"><input type="radio" name="task-4-badge" id="task-4-badge-design" checked>
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-4-badge-other"><input type="radio" name="task-4-badge" id="task-4-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-5">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-5" id="task-5">
+                <input type="text" value="Sidebar component refactor">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-5-menu" id="task-5-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">28.01.2024</span>
+                <span>9:32</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-5-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-5-badge-code"><input type="radio" name="task-5-badge" id="task-5-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-5-badge-design"><input type="radio" name="task-5-badge" id="task-5-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-5-badge-other"><input type="radio" name="task-5-badge" id="task-5-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-6">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-6" id="task-6">
+                <input type="text" value="Morning workout">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-6-menu" id="task-6-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">02.02.2024</span>
+                <span>10:11</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-6-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-6-badge-code"><input type="radio" name="task-6-badge" id="task-6-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-6-badge-design"><input type="radio" name="task-6-badge" id="task-6-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-6-badge-other"><input type="radio" name="task-6-badge" id="task-6-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-7">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-7" id="task-7">
+                <input type="text" value="Client session">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-7-menu" id="task-7-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">06.02.2024</span>
+                <span>12:01</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-7-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-7-badge-code"><input type="radio" name="task-7-badge" id="task-7-badge-code" checked>
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-7-badge-design"><input type="radio" name="task-7-badge" id="task-7-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-7-badge-other"><input type="radio" name="task-7-badge" id="task-7-badge-other">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="item-8">
+          <div class="task ">
+            <div class="description ">
+              <div class="action "><input type="checkbox" class="task-checkbox " name="task-8" id="task-8">
+                <input type="text" value="Friday beer">
+              </div>
+              <div class="menu "><input type="checkbox" class="bi bi-three-dots menu-checkbox " name="task-8-menu" id="task-8-menu">
+              </div>
+            </div>
+            <div class="info "><span><span class="date ">09.02.2024</span>
+                <span>7:30</span></span>
+              <span class="badges "><span class="badge badge-design ">Design</span>
+                <span class="badge badge-code ">Code</span>
+                <span class="badge badge-other ">Other</span></span>
+            </div>
+          </div>
+          <div class="popup ">
+            <div class="wrapper ">
+              <header>
+                <h3>Choose a badge:</h3>
+                <label for="task-8-menu"><i class="bi bi-x "></i>
+                </label>
+              </header>
+              <div class="badges "><label class="badge badge-code " for="task-8-badge-code"><input type="radio" name="task-8-badge" id="task-8-badge-code">
+                  <span>Code</span></label>
+                <label class="badge badge-design " for="task-8-badge-design"><input type="radio" name="task-8-badge" id="task-8-badge-design">
+                  <span>Design</span></label>
+                <label class="badge badge-other " for="task-8-badge-other"><input type="radio" name="task-8-badge" id="task-8-badge-other" checked>
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://toruskit.com" target="_blank" id="made-with">Made with TorusKit</a>
+</div>
+   <script src="./main.js"></script> 
+</body>
+</html>
